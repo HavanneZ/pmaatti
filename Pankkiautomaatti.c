@@ -51,7 +51,7 @@ int main(void){
     			
 			printf("\nPin-koodi Ok!\n\n");    		
         	printf("Tervetuloa! \n");
-	do{      		
+	while (1) {      		
 
         		paluu:
 				printf("\n1. Saldo. \n");
@@ -92,7 +92,7 @@ int main(void){
 				}
 		if(valinta==0)
 		break;
-	}while (1);
+	}
 
    			
    			
